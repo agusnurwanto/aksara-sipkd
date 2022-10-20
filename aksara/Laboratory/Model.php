@@ -2361,6 +2361,12 @@ class Model
 			{
 				$column								= 'CAST(' . $column . ' AS ' . $cast_type . ')';
 			}
+			
+			if(strpos($cast_type, 'VARCHAR') !== false)
+			{
+				$column								= 'LOWER(' . $column . ')';
+				$value								= strtolower($value);
+			}
 		}
 		
 		return array
