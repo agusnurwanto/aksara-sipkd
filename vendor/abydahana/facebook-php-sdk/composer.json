@@ -1,0 +1,23 @@
+{
+    "name": "abydahana/facebook-php-sdk",
+    "description": "Facebook SDK for PHP",
+    "keywords": ["facebook", "sdk"],
+    "type": "library",
+    "homepage": "https://github.com/abydahana/facebook-php-sdk",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Facebook",
+            "homepage": "https://github.com/facebook/php-graph-sdk/contributors"
+        }
+    ],
+    "require": {
+        "php": "^5.4|^7.0|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Facebook\\": "src/Facebook/"
+        },
+        "files": ["src/Facebook/polyfills.php"]
+    }
+}
