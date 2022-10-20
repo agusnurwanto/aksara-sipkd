@@ -34,7 +34,7 @@ if(isset($suggestions) && $suggestions)
 }
 
 echo '
-	<div class="container pt-5">
+	<div class="container pt-5 pb-5">
 		<div class="text-center pt-5 pb-5">
 			<h1 class="text-muted">
 				404
