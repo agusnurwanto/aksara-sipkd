@@ -1,0 +1,17 @@
+config.php
+public/c.php
+
+# ignore all file in uploads folder
+public/uploads/*
+
+!public/uploads/index.html
+
+# but not if sub directory
+!public/uploads/*/*/
+
+# ignore all file in sub folder writable
+writable/*/*
+
+!writable/translations/*
+!writable/*/index.html
+
